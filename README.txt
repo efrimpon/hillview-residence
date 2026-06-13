@@ -1,15 +1,35 @@
-Hillview Residence Website - Fixed Version
+Hillview Residence Website v2.0
+================================
 
-IMPORTANT:
-1. First unzip/extract the folder. Do not open the HTML files from inside the ZIP preview.
-2. Open the extracted folder called HillviewResidence_fixed.
-3. Double-click index.html to preview the website.
-4. Navigation links should now work locally.
-5. The website uses built-in placeholder image panels, so no missing image files are required.
-6. The Student Portal and Management Portal buttons already point to your live Google Apps Script portal.
+This version repositions the site around Hillview Residence as a broader accommodation brand, not only student housing.
 
-Live portal URL used:
+Key changes:
+- Renamed the portal to Reservations Portal.
+- Homepage now welcomes students, families, professionals, researchers, and short-term guests.
+- Accommodation page separates Student Rooms and Two-Bedroom Apartments.
+- Student application buttons connect to your live Google Apps Script portal.
+- Apartment booking is presented as coming soon / enquiry for now.
+- Staff login is kept discreet in the footer and Reservations Portal page.
+- Logo and current property photos are included.
+
+HOW TO UPDATE GITHUB
+1. Unzip this folder.
+2. Go to your GitHub repository: hillview-residence.
+3. Upload/replace all files and folders from this package.
+4. Commit changes.
+5. Wait 1-2 minutes for GitHub Pages to update.
+6. Visit https://hillviewresidencegh.com
+
+IMPORTANT
+- Keep the CNAME file in the repository. It should contain:
+  hillviewresidencegh.com
+- Do not delete it.
+
+PORTAL URL CONNECTED
 https://script.google.com/macros/s/AKfycbzkxoAzushYrDrrcYF8Lr6g3XFR8_5K3DQ_9w8S8syxMFbZKiaD5f1ywVjWcnjeAPbSTQ/exec
 
-To publish online:
-Upload all files in this folder to GitHub Pages, Cloudflare Pages, Netlify, or your hosting provider.
+NEXT RECOMMENDED IMPROVEMENTS
+- Add professional photos of bedrooms, bathrooms, kitchen, and two-bedroom apartments.
+- Add a short video hero banner once footage is properly edited.
+- Add the exact Google Maps pin.
+- Upgrade the Google Apps Script portal so the first question is accommodation type: Student Room or Two-Bedroom Apartment.
