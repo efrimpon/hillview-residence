@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Gallery — Hillview Residence</title>
+<meta name="description" content="A look around Hillview Residence, Cape Coast.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="site">
+  <div class="bar">
+    <a class="logo" href="index.html">Hillview Residence <small>Cape Coast</small></a>
+    <button class="navtoggle" aria-label="Open menu" aria-expanded="false">☰</button>
+    <div class="menu">
+      <a class="link" href="index.html">Home</a>
+      <a class="link" href="accommodation.html">Accommodation</a>
+      <a class="link" href="gallery.html" aria-current="page">Gallery</a>
+      <a class="link" href="about.html">About</a>
+      <a class="link" href="contact.html">Contact</a>
+      <a class="navcta" href="reserve.html">Reserve</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="inner">
+    <p class="eyebrow">Gallery</p>
+    <h1>A look around Hillview.</h1>
+    <p>The compound, the rooms, and the quiet corners. Photos are being added as each space is finished and furnished.</p>
+  </div>
+</header>
+
+<main>
+  <section class="block">
+    <div class="wrap">
+      <!-- Photos live in the media/ folder. To add more, drop a 4:3 image in
+           media/ and copy a tile below, changing the src, alt, and caption. -->
+      <div class="gallery">
+        <div class="shot"><img src="media/residence-by-day.jpg" alt="Hillview Residence exterior by day" loading="lazy"><span>The residence by day</span></div>
+        <div class="shot"><img src="media/rooftop-city-lights.jpg" alt="Rooftop terrace with city lights at night" loading="lazy"><span>City lights from the rooftop</span></div>
+        <div class="shot"><img src="media/evening-skyline.jpg" alt="Evening skyline view from the property" loading="lazy"><span>Evening skyline view</span></div>
+        <div class="shot"><img src="media/hilltop-setting.jpg" alt="Green hilltop surroundings in the evening" loading="lazy"><span>Green hilltop setting</span></div>
+        <div class="shot"><img src="media/entrance-courtyard.jpg" alt="Lit entrance and courtyard at night" loading="lazy"><span>Secure entrance &amp; courtyard</span></div>
+        <div class="shot"><img src="media/lit-grounds.jpg" alt="Building and grounds lit after dark" loading="lazy"><span>Lit grounds after dark</span></div>
+        <div class="shot"><img src="media/gated-entry.jpg" alt="Gated entry with security lighting" loading="lazy"><span>Gated entry</span></div>
+        <div class="shot"><img src="media/terrace-greenery.jpg" alt="Greenery beside the rooftop terrace" loading="lazy"><span>Greenery along the terrace</span></div>
+        <div class="shot"><img src="media/rooftop-terrace-night.jpg" alt="Tiled rooftop terrace at night" loading="lazy"><span>Rooftop terrace at night</span></div>
+        <div class="shot"><img src="media/terrace-at-dusk.jpg" alt="Polished terrace floor under an evening sky" loading="lazy"><span>The terrace at dusk</span></div>
+        <div class="shot"><img src="media/overlooking-the-city.jpg" alt="View overlooking the city at night" loading="lazy"><span>Overlooking the city</span></div>
+        <div class="shot"><img src="media/evening-sky.jpg" alt="Rooftop under a dramatic evening sky" loading="lazy"><span>Under an evening sky</span></div>
+      </div>
+      <p class="notice" style="margin-top:28px">Want a closer look before you decide? Arrange a visit with Madam Margaret on <strong>024 221 5389</strong>.</p>
+    </div>
+  </section>
+</main>
+
+<footer class="site">
+  <div class="inner">
+    <div>
+      <div class="brandline">Hillview Residence</div>
+      <p style="margin-top:10px;max-width:34ch;color:#aebccd">Calm, secure accommodation in Cape Coast for students, families, and visiting professionals.</p>
+    </div>
+    <div>
+      <h4>Explore</h4>
+      <a href="accommodation.html">Accommodation</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="about.html">About</a>
+      <a href="reserve.html">Reserve a room</a>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <a href="tel:+233242215389">Madam Margaret · 024 221 5389</a>
+      <a href="mailto:hillviewresidencegh@gmail.com">hillviewresidencegh@gmail.com</a>
+      <a href="portal.html">Staff portal</a>
+    </div>
+  </div>
+  <div class="copy">© <span id="yr"></span> Hillview Residence · Cape Coast, Ghana</div>
+</footer>
+
+<script>
+  document.getElementById('yr').textContent=new Date().getFullYear();
+  (function(){var t=document.querySelector('.navtoggle'),m=document.querySelector('.menu');
+   t.addEventListener('click',function(){var o=m.classList.toggle('open');t.setAttribute('aria-expanded',o)})})();
+</script>
+</body>
+</html>

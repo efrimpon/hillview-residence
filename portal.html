@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Staff Portal — Hillview Residence</title>
+<meta name="description" content="Hillview Residence staff management portal.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="site">
+  <div class="bar">
+    <a class="logo" href="index.html">Hillview Residence <small>Cape Coast</small></a>
+    <button class="navtoggle" aria-label="Open menu" aria-expanded="false">☰</button>
+    <div class="menu">
+      <a class="link" href="index.html">Home</a>
+      <a class="link" href="accommodation.html">Accommodation</a>
+      <a class="link" href="gallery.html">Gallery</a>
+      <a class="link" href="about.html">About</a>
+      <a class="link" href="contact.html">Contact</a>
+      <a class="navcta" href="reserve.html">Reserve</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="inner">
+    <p class="eyebrow">Staff only</p>
+    <h1>Management portal.</h1>
+    <p>Sign in to review reservations, manage rooms, approve applications, and track occupancy.</p>
+  </div>
+</header>
+
+<main>
+  <section class="block">
+    <div class="wrap">
+      <div class="card" style="max-width:520px">
+        <h3 style="margin-top:0">Open the management portal</h3>
+        <p>The portal runs inside Google Apps Script. You'll be asked for the staff email and password.</p>
+        <!-- Live Apps Script Web App URL. If you ever create a brand-new deployment (instead of editing the existing one), update this link. -->
+        <p style="margin-top:16px"><a class="btn green" href="https://script.google.com/macros/s/AKfycbzBdfe8CXtQkQ_ID_x-8f8PKSQR5ej5lawcbczdF8S6lPYmqWO3HpNW1ihXAUaL6u8lqw/exec?page=admin&v=rebuild">Open staff portal</a></p>
+        <p class="notice" style="margin-top:18px">For your residents' privacy, only share the portal link and password with trusted staff.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site">
+  <div class="inner">
+    <div>
+      <div class="brandline">Hillview Residence</div>
+      <p style="margin-top:10px;max-width:34ch;color:#aebccd">Calm, secure accommodation in Cape Coast for students, families, and visiting professionals.</p>
+    </div>
+    <div>
+      <h4>Explore</h4>
+      <a href="accommodation.html">Accommodation</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="about.html">About</a>
+      <a href="reserve.html">Reserve a room</a>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <a href="tel:+233242215389">Madam Margaret · 024 221 5389</a>
+      <a href="mailto:hillviewresidencegh@gmail.com">hillviewresidencegh@gmail.com</a>
+      <a href="portal.html">Staff portal</a>
+    </div>
+  </div>
+  <div class="copy">© <span id="yr"></span> Hillview Residence · Cape Coast, Ghana</div>
+</footer>
+
+<script>
+  document.getElementById('yr').textContent=new Date().getFullYear();
+  (function(){var t=document.querySelector('.navtoggle'),m=document.querySelector('.menu');
+   t.addEventListener('click',function(){var o=m.classList.toggle('open');t.setAttribute('aria-expanded',o)})})();
+</script>
+</body>
+</html>
